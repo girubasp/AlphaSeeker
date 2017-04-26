@@ -1,0 +1,27 @@
+{
+    "devtools_port": 9090,
+    "splashScreenImage": "http://localhost:4000/images/splash-screen.jpg",
+    "startup_app": {
+        "name": "Alpha Seeker",
+        "url": "http://localhost:4000/",
+        "uuid": "alpha-seeker",
+        "applicationIcon": "http://localhost:4000/images/adaptive-mark-large.png",
+        "autoShow": true,
+        "defaultWidth": 1280,
+        "defaultHeight": 900,
+        "minWidth": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "maximizable": true
+    },
+    "runtime": {
+        "arguments": "--force-device-scale-factor=1",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "Gagan consulting",
+        "description": "Alpha Seeker",
+        "icon": "http://localhost:4000/images/icon.ico",
+        "name": "Alpha Seeker"
+    }
+}
